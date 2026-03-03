@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="onz9-ZBAL0aaPfneG2uZBg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics" DesignTimeRectangle="572, 256, 1168, 5921" DesignTimeScaleFactor="1.5" ElementType="List" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;ul' parentid='productListDetailsWrapper' tag='UL' /&gt;" Guid="71bfa893-0d5f-44f1-8f10-bbdb5b5bf842" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Top paid Classics Games on Xbox | Microsoft Store' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="94be3194d4526df282f77e46c79be42f.png" xmlns="">0ICHP2UhvpkedpzN1WrTBlA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='gameCard'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="microsoft.com/en-us/store/top-paid/games/xbox" CVScreenId="45a3f4d1-4d23-4c00-b0be-bb9deb2f0a97" CvTextArea="1212, 788, 54, 21" CvTextArgument="Next" CvType="Text" DesignTimeRectangle="1213, 780, 52, 32" DesignTimeScaleFactor="1.5" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Next' parentid='productListDetailsWrapper' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl aaname='Next' parentid='productListDetailsWrapper' tag='SPAN' type='' class='' check:innerText='Next' /&gt;" Guid="94c642d5-4973-4350-b0ad-3b2eaa553beb" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Top paid Classics Games on Xbox | Microsoft Store' /&gt;" SearchSteps="FuzzySelector, CV" Version="V4" Visibility="Interactive" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
